@@ -1,0 +1,55 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css");
+
+html{
+    font-family: 'PT Sans Caption','sans-serif';
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.mainHeader{
+    background-image: url("bg/mainHeader.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.mainHeader .secondHeader{
+    background-color: rgba(0,0,0,0.7) ;
+    background-position: center;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+#header_title{
+    font-size: 56px;
+    line-height: 62px;
+    margin-bottom: 30px;
+    font-family: 'Merriweather','serif';
+    margin-top: -50px;
+}
+
+#header_slogon{
+    font-size: 28px;
+    line-height: 42px;
+}
+
+#header_arrow{
+    font-size: 48px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: 60px;
+    height: 50px;
+    margin-left: -30px;
+}
